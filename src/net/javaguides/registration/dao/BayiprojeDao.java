@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class BayiprojeDao {
     public int registerBayiproje(Bayiproje bayiproje) throws ClassNotFoundException {
         String INSERT_PERSON_SQL = "INSERT INTO bayiproje" +
-                " (id, name, surname, tc, address, email, phone, datetime, que1, que2, qu3, que4, note) VALUES " +
+                " (id, name, surname, tc, address, email, phone,  que1, que2, qu3, que4, note) VALUES " +
                 " (?,?,?,?,?,?,?,?,?,?,?,?,?);";
         int result = 0;
         Class.forName("com.mysql.jdbc.Driver");

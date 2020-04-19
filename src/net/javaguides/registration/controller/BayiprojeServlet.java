@@ -3,6 +3,8 @@ package net.javaguides.registration.controller;
 
 import net.javaguides.registration.model.Bayiproje;
 import net.javaguides.registration.dao.BayiprojeDao;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 
 import javax.servlet.RequestDispatcher;
@@ -13,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/register")
+@WebServlet("/index")
 public class BayiprojeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -40,7 +42,7 @@ public class BayiprojeServlet extends HttpServlet {
         String address = request.getParameter("address");
         String email = request.getParameter("email");
         String phone = request.getParameter("phone");
-        String datetime = request.getParameter("datetime");
+
         String que1 = request.getParameter("que1");
         String que2 = request.getParameter("que2");
         String que3 = request.getParameter("que3");
@@ -55,6 +57,7 @@ public class BayiprojeServlet extends HttpServlet {
         bayiproje.setSurname(surname);
         bayiproje.setTc(tc);
         bayiproje.setAddress(address);
+
         bayiproje.setPhone(phone);
         bayiproje.setEmail(email);
         bayiproje.setQue1(que1);
