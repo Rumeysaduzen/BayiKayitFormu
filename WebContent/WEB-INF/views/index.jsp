@@ -179,31 +179,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <div class="login-box">
-    <h1>
+
 
     </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
-    <h1>
+    <h1 style="height: 200px;">
 
     </h1>
 
